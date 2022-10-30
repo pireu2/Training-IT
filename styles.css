@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.hero{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(99, 99, 109);
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    margin: auto;
+}
+
+.card-image{
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .cards-container{
+        flex-direction: column;
+    }
+}
